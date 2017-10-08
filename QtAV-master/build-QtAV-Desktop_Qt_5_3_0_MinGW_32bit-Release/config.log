@@ -1,0 +1,129 @@
+executing config test avutil
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avutil && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/avutil
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avutil && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -O2 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -D__STDC_CONSTANT_MACROS -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avutil -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include" -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o main.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avutil\main.cpp
+E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avutil\main.cpp:21:30: fatal error: libavutil/avutil.h: No such file or directory
+ #include <libavutil/avutil.h>
+                              ^
+compilation terminated.
+Makefile:333: recipe for target 'main.o' failed
+mingw32-make: *** [main.o] Error 1
+test avutil FAILED
+executing config test avutil
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avutil && mingw32-make distclean
+C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" -o Makefile E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avutil\avutil.pro
+del main.o
+找不到 E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avutil\main.o
+del avutil.exe
+找不到 E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avutil\avutil.exe
+del Makefile
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avutil && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/avutil
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avutil && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -O2 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -D__STDC_CONSTANT_MACROS -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avutil -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include" -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o main.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avutil\main.cpp
+g++ -Wl,-s -Wl,-subsystem,console -mthreads -o avutil.exe main.o  -lavutil -LC:/Qt/Qt5.3.0/5.3/mingw482_32/lib 
+test avutil succeeded
+executing config test avcodec
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avcodec && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/avcodec
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avcodec && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -O2 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -D__STDC_CONSTANT_MACROS -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avcodec -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include" -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o main.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avcodec\main.cpp
+g++ -Wl,-s -Wl,-subsystem,console -mthreads -o avcodec.exe main.o  -lavcodec -LC:/Qt/Qt5.3.0/5.3/mingw482_32/lib 
+test avcodec succeeded
+executing config test avformat
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avformat && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/avformat
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avformat && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -O2 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -D__STDC_CONSTANT_MACROS -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avformat -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include" -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o main.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avformat\main.cpp
+g++ -Wl,-s -Wl,-subsystem,console -mthreads -o avformat.exe main.o  -lavformat -LC:/Qt/Qt5.3.0/5.3/mingw482_32/lib 
+test avformat succeeded
+executing config test swscale
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\swscale && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/swscale
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\swscale && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -O2 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -D__STDC_CONSTANT_MACROS -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\swscale -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include" -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o main.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\swscale\main.cpp
+g++ -Wl,-s -Wl,-subsystem,console -mthreads -o swscale.exe main.o  -lswscale -LC:/Qt/Qt5.3.0/5.3/mingw482_32/lib 
+test swscale succeeded
+executing config test swresample
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\swresample && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/swresample
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\swresample && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -O2 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -D__STDC_CONSTANT_MACROS -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\swresample -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include" -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o main.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\swresample\main.cpp
+g++ -Wl,-s -Wl,-subsystem,console -mthreads -o swresample.exe main.o  -lswresample -LC:/Qt/Qt5.3.0/5.3/mingw482_32/lib 
+test swresample succeeded
+executing config test avresample
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avresample && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/avresample
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avresample && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -O2 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -D__STDC_CONSTANT_MACROS -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avresample -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include" -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o main.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avresample\main.cpp
+E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avresample\main.cpp:21:38: fatal error: libavresample/avresample.h: No such file or directory
+ #include <libavresample/avresample.h>
+                                      ^
+compilation terminated.
+Makefile:333: recipe for target 'main.o' failed
+mingw32-make: *** [main.o] Error 1
+test avresample FAILED
+executing config test avdevice
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avdevice && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/avdevice
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avdevice && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -O2 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -D__STDC_CONSTANT_MACROS -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avdevice -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include" -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o main.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avdevice\main.cpp
+g++ -Wl,-s -Wl,-subsystem,console -mthreads -o avdevice.exe main.o  -lavdevice -LC:/Qt/Qt5.3.0/5.3/mingw482_32/lib 
+test avdevice succeeded
+executing config test gl
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\gl && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/gl
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\gl && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -O2 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\gl -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include" -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include\QtOpenGL" -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include\QtWidgets" -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include\QtGui" -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include\QtCore" -I"." -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o main.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\gl\main.cpp
+g++ -Wl,-s -Wl,-subsystem,console -mthreads -o gl.exe main.o  -lglu32 -lopengl32 -lgdi32 -luser32 -LC:/Qt/Qt5.3.0/5.3/mingw482_32/lib -lQt5OpenGL -lQt5Widgets -lQt5Gui -lQt5Core 
+test gl succeeded
+executing config test avfilter
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avfilter && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/avfilter
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\avfilter && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -O2 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -D__STDC_CONSTANT_MACROS -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avfilter -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include" -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o main.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\avfilter\main.cpp
+g++ -Wl,-s -Wl,-subsystem,console -mthreads -o avfilter.exe main.o  -lavfilter -LC:/Qt/Qt5.3.0/5.3/mingw482_32/lib 
+test avfilter succeeded
+executing config test sse4_1
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\sse4_1 && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/sse4_1
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\sse4_1 && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -msse4.1 -g -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\sse4_1 -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o sse4_1.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\sse4_1\sse4_1.cpp
+g++ -Wl,-subsystem,console -mthreads -o sse4_1.exe sse4_1.o  
+test sse4_1 succeeded
+executing config test openal
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\openal && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/openal
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\openal && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -O2 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\openal -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include" -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o main.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\openal\main.cpp
+E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\openal\main.cpp:26:19: fatal error: AL/al.h: No such file or directory
+ #include <AL/al.h>
+                   ^
+compilation terminated.
+Makefile:333: recipe for target 'main.o' failed
+mingw32-make: *** [main.o] Error 1
+test openal FAILED
+executing config test portaudio
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\portaudio && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/portaudio
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\portaudio && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -O2 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\portaudio -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include" -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o main.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\portaudio\main.cpp
+g++ -Wl,-s -Wl,-subsystem,console -mthreads -o portaudio.exe main.o  -lportaudio -LC:/Qt/Qt5.3.0/5.3/mingw482_32/lib 
+test portaudio succeeded
+executing config test direct2d
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\direct2d && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/direct2d
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\direct2d && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -O2 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\direct2d -I"E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\contrib\d2d1headers" -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o main.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\direct2d\main.cpp
+g++ -Wl,-s -Wl,-subsystem,console -mthreads -o direct2d.exe main.o  
+test direct2d succeeded
+executing config test gdiplus
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\gdiplus && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/gdiplus
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\gdiplus && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -O2 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\gdiplus -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o main.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\gdiplus\main.cpp
+g++ -Wl,-s -Wl,-subsystem,console -mthreads -o gdiplus.exe main.o  -lgdiplus -lGdi32 
+test gdiplus succeeded
+executing config test dxva
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\dxva && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/dxva
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\dxva && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -O2 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\dxva -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include" -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o main.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\dxva\main.cpp
+g++ -Wl,-s -Wl,-subsystem,console -mthreads -o dxva.exe main.o  -LC:/Qt/Qt5.3.0/5.3/mingw482_32/lib 
+test dxva succeeded
+executing config test libass
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\libass && C:\Qt\Qt5.3.0\5.3\mingw482_32\bin\qmake.exe "CONFIG -= qt debug_and_release app_bundle lib_bundle" E:/Qtexample/git/qtav/qtav/QtAV-master/QtAV-master/config.tests/libass
++ cd E:\Qtexample\git\qtav\qtav\QtAV-master\build-QtAV-Desktop_Qt_5_3_0_MinGW_32bit-Release\config.tests\libass && mingw32-make
+g++ -c -pipe -fno-keep-inline-dllexport -O2 -frtti -Wall -Wextra -fexceptions -mthreads -DUNICODE -IE:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\libass -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\include" -I"." -I"C:\Qt\Qt5.3.0\5.3\mingw482_32\mkspecs\win32-g++" -o main.o E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\libass\main.cpp
+E:\Qtexample\git\qtav\qtav\QtAV-master\QtAV-master\config.tests\libass\main.cpp:22:21: fatal error: ass/ass.h: No such file or directory
+ #include <ass/ass.h>
+                     ^
+compilation terminated.
+Makefile:333: recipe for target 'main.o' failed
+mingw32-make: *** [main.o] Error 1
+test libass FAILED
